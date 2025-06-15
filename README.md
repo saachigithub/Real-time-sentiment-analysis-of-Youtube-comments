@@ -1,2 +1,4 @@
 # Real-time-sentiment-analysis-of-Youtube-comments
-Real-time sentiment analysis of YouTube comments using Aiven Kafka. Supports live and non-live videos, multilingual and emoji content. Uses TextBlob, Azure NLP, and fine-tuned BERT. Streamlit dashboard shows sentiment pie chart, word cloud, comment count, accuracy, and precision.
+This project performs real-time sentiment analysis on YouTube comments using a streaming pipeline built with Aiven Kafka. It supports both live chat and non-live video comments, handling multilingual and emoji-rich content. Sentiment is analyzed using three models: TextBlob, Azure Cognitive Services, and a fine-tuned BERT model for higher accuracy. A Streamlit dashboard visualizes sentiment trends through a pie chart, word cloud, and key metrics like comment count, accuracy, and precision. Comments are fetched using the YouTube Data API and pytchat, enabling seamless processing and real-time insights into viewer sentiment.
+Technologies used: Python, Aiven Kafka, BERT (Hugging Face Transformers), Azure Language Cognitive Services, TextBlob, Streamlit, Matplotlib, Plotly, langdetect library, json, Youtube Data API, pytchat.
+
